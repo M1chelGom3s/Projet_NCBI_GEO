@@ -1,7 +1,6 @@
 # download GSE 
 
 This program searches from a query in NCBI (The National Center for Biotechnology Information) and extracts the search results from the search result page.
-
 First, the program retrieves the following search results:
 
 - Title 
@@ -11,8 +10,7 @@ First, the program retrieves the following search results:
 - Description
 
 Then in a second time for each accession a directory will be created.
-
-So the associated metadata as well as the counting matrices which will be saved in two separate files.
+As well the associated metadata as well as the counting matrices which will be saved in two separate files.
 
 ## Setup development environment and use case
 
