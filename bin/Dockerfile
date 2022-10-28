@@ -18,5 +18,6 @@ RUN Rscript -e 'install.packages("BiocManager")'
 RUN Rscript -e 'BiocManager::install("GEOquery")'
 RUN Rscript -e 'install.packages("tidyverse")'
 
+COPY . *
 #RUN chmod -R +x *
 #CMD ["python3","./getDataGEO.py"]

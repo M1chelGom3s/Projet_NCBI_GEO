@@ -46,7 +46,7 @@ while (i < nb_row){
       write.table(meta, file=file_Meta, sep='\t')
       print(paste("creat",file_Meta, "file"))
       
-      rm(gset,data_count,meta)
+      rm(gse,data_count,meta)
       
     }
     
